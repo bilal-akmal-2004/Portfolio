@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Josefin+Sans:ital,wght@0,100;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Aldrich", sans-serif;
+}
+
+.nabar{
+    position: fixed !important;
+    width: 100%;
+    box-shadow: -4px -1px 39px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.small-logo{
+    width: 120px;
+}
+
+.side-bar{
+    background-color: rgb(253, 253, 253);
+    width: 49%;
+    height: 30px;
+}
+
+.margin1{
+    margin-right: 3px;
+    
+}
+
+.margin2{
+    margin-right: 4px;
+}
+
+.icon{
+    font-size: 17px;
+    color: black;
+}
+
+.nav-text{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    
+    
+}
+
+
+.nav-text:hover{
+    color: green;
+    font-weight: 400;
+    text-decoration: line-through;
+    
+}
+
+.hero{
+    width: 100%;
+    height: 275px;
+}
+
+.hero-h1{
+    width: 70%;
+}
+
+.hero-h1-text{
+    font-size: 30px;
+}
+
+/* sping circle */
+
+.fa-spin{
+    margin-top: 10px;
+     font-size: 30px;
+     margin-bottom: 10px;
+}
+
+/* footer hrer hah */
+
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.middler-footer-spanhover:hover{
+      color: green;
+}
+
+
+
+
+/* pics hove */
+
+.gal-pic-property {
+    display: block;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gal-pic-property img {
+    width: 100%; 
+    height: 360px; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.gal-pic-property p {
+    text-transform: uppercase;
+    top: 77%;
+    font-size: 27px;
+    position: absolute;
+    color: white;
+    left: 5%;
+    display: none;
+}
+
+.gal-pic-property span {
+    text-transform: uppercase;
+    top: 72%;
+    font-size: 16px;
+    position: absolute;
+    color: white;
+    left: 6%;
+    display: none;
+}
+
+.gal-pic-property:hover span {
+    display: block;
+}
+
+.gal-pic-property:hover p {
+    display: block;
+}
+
+/* Pics here */
+
+
+.pics-container{
+    overflow: hidden;
+} 
+
+
+
+.pic-1{
+    width: 29%;
+}
+.pic-2{
+    width: 18%;
+}
+.pic-3{
+    width: 26%;
+}
+.pic-4{
+    width: 26%;
+}
+.pic-5{
+    width: 23%;
+}
+.pic-6{
+    width: 30%;
+}
+.pic-7{
+    width: 26%;
+}
+.pic-8{
+    width: 20%;
+}
+.pic-9{
+    width: 27%;
+}
+.pic-10{
+    width: 20%;
+}
+.pic-11{
+    width: 25%;
+}
+.pic-12{
+    width: 27%;
+}
+.pic-13{
+    width: 22%;
+}
+.pic-14{
+    width: 29%;
+}
+.pic-15{
+    width: 18%;
+}
+.pic-16{
+    width: 30%;
+}
+.pic-17{
+    width: 16%;
+}
+.pic-18{
+    width: 34%;
+}
+.pic-19{
+    width: 30%;
+}
+.pic-20{
+    width: 19%;
+}
+
+
+/* Media queryy */
+
+@media (max-width: 1000px) {
+
+    .pic-1 {
+        width: 60%; 
+    }
+    .pic-2{
+        width: 40%;
+    }
+    .pic-3{
+        width: 52%;
+    }
+    .pic-4{
+        width: 48%;
+    }
+    .pic-5{
+        width: 40%;
+    }
+    .pic-6{
+        width: 60%; 
+    }
+    .pic-7{
+        width: 48%;
+    }
+    .pic-8{
+        width: 52%;
+    }
+    .pic-9{
+        width: 53%;
+    }
+    .pic-10{
+        width: 47%;
+    }
+    .pic-11{
+        width: 60%; 
+    }
+    .pic-12{
+        width: 40%;
+    }
+    .pic-13{
+        width: 43%;
+    }
+    .pic-14{
+        width: 57%;
+    }
+    .pic-15{
+        width: 36%;
+    }
+    .pic-16{
+        width: 64%; 
+    }
+    .pic-17{
+        width: 31%;
+    }
+    .pic-18{
+        width: 69%;
+    }
+    .pic-19{
+        width: 60%;
+    }
+    .pic-20{
+        width: 40%;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    
+    .pic-1 {
+        width: 100%; 
+    }
+    .pic-2{
+        width: 100%;
+    }
+    .pic-3{
+        width: 100%;
+    }
+    .pic-4{
+        width: 100%;
+    }
+    .pic-5{
+        width: 100%;
+    }
+    .pic-6{
+        width: 100%; 
+    }
+    .pic-7{
+        width: 100%;
+    }
+    .pic-8{
+        width: 100%;
+    }
+    .pic-9{
+        width: 100%;
+    }
+    .pic-10{
+        width: 100%;
+    }
+    .pic-11{
+        width: 100%; 
+    }
+    .pic-12{
+        width: 100%;
+    }
+    .pic-13{
+        width: 100%;
+    }
+    .pic-14{
+        width: 100%;
+    }
+    .pic-15{
+        width: 100%;
+    }
+    .pic-16{
+        width: 100%; 
+    }
+    .pic-17{
+        width: 100%;
+    }
+    .pic-18{
+        width: 100%;
+    }
+    .pic-19{
+        width: 100%;
+    }
+    .pic-20{
+        width: 100%;
+    }
+}
+
+/* Footer query */
+
+@media (max-width: 920px){
+
+    .left-footer{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* .left-footer img{
+        width: 90px;
+    } */
+    .middle-footer{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .right-footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 700px){
+    .left-footer img{
+        width: 90px;
+    }
+    .middle-span{
+        font-size: 13px;
+    }
+    .right-footer a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 280px){
+    .left-footer img{
+        width: 60px;
+    }
+    .middle-span{
+        font-size: 8px;
+    }
+    .right-footer a{
+        font-size: 8px;
+    }
+}
+
+/* 
+other       query */
+
+@media (max-width: 83px) {
+
+    .icon {
+        font-size: 8px; 
+    }
+
+}
+
+@media (max-width: 330px) {
+      .hero-h1-text{
+        font-size: 20px;
+      }
+}
+
+
+@media (max-width: 127px) {
+    .hero-h1-text{
+    font-size: 12px;
+    }
+
+    .small-logo{
+        width: 50px;
+    }
+    
+
+    .nav-text{
+        flex-direction: column;
+        font-size: 7px;
+    }
+}
+
+    
+
+
+@media (max-width: 80px) {
+    .hero-h1-text{
+        font-size: 8px;
+    }
+}

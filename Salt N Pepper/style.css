@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playball&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+* span{
+    font-family: "Playball", cursive;
+}
+
+.background-image-on-right{
+    border-radius: 20px;
+    background-color: #1a1616;
+}
+
+.dark-gray-bg-color{
+    background-color: #FFFFFF0F;
+}
+
+/* Salt-pepper-font-span */
+.Salt-pepper-span{
+    font-family: "Playball", cursive;
+    font-size: 60px;
+}
+
+.text-section-welcome{
+    text-align: center;
+}
+
+
+/* left and right navbar */
+
+.left-bar img{
+    width: 165px;
+    height: 75px;
+}
+
+.right-bar{
+    display: flex;
+}
+
+.right-bar-div-red{
+    display: none;
+}
+
+/* some experment squares here */
+
+.squares-here{
+    gap: 23px;
+    
+    display: flex;
+    overflow-x: auto;
+}
+
+.squares-here::-webkit-scrollbar{
+    width: 0;
+}
+
+.itemos{
+    
+   
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+
+
+/* boxes buttone widht */
+
+.buttons-welcome{
+    width: 40%;
+ }
+
+ /* direction section her */
+ .directions-h2{
+    font-size: 40px;
+}
+ .directions-h2 span{
+     font-size: 60px;
+     font-family: "Playball", cursive;
+ }
+
+ /* Express pics css */
+ .express-image-row-1 img{
+    height: 250px;
+    object-fit: cover;
+ }
+
+ /* opensing soon boxes */
+.cards{
+   height: 230px;
+   background-color: white;
+   border-radius: 4px;
+   width: 350px;
+ }
+
+ /* LAST SCROLLING PART */
+ .scrolling-food{
+    gap: 23px;
+    
+    display: flex;
+    overflow-x: auto;
+}
+
+.scrolling-food::-webkit-scrollbar{
+    background-color: rgb(26, 29, 30);
+}
+
+.itemos{
+    
+   
+    background-color: rgb(255, 255, 255);
+   
+    
+}
+
+  /* footer here  */
+
+  .footer{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.middler-footer-spanhover:hover{
+      color: green;
+}
+
+/* MEDIA QUERY */
+
+/* footer qwerrue */
+@media (max-width: 920px){
+
+    .left-footer{
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* .left-footer img{
+        width: 90px;
+    } */
+    .middle-footer{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    .right-footer {
+        width: 100%;
+        justify-content: center;
+    }
+
+    
+}
+
+@media (max-width: 700px){
+    .left-footer img{
+        width: 90px;
+    }
+    .middle-span{
+        font-size: 13px;
+    }
+    .right-footer a{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 280px){
+    .left-footer img{
+        width: 60px;
+    }
+    .middle-span{
+        font-size: 8px;
+    }
+    .right-footer a{
+        font-size: 8px;
+    }
+}
+
+/* opensing soon booxses query */
+
+@media (max-width:1204px) {
+    .cards{
+        width: 300px;
+    }
+}
+
+
+
+/* boxes query */
+
+@media (max-width:1499px) {
+     .buttons-welcome{
+        width: 60%;
+     }
+}   
+
+@media (max-width:1160px) {
+    .right-bar{
+        display: none;
+    }
+    .right-bar-div-red{
+        display: block;
+    }
+    .buttons-welcome{
+        width: 80%;
+     }
+     .cards{
+        width: 250px;
+    }
+}
+
+
+
+@media (max-width:777px) {
+    .buttons-welcome{
+        width: 100%;
+     }
+}
+
+@media (max-width:648px) {
+    .right-bar-div-red{
+        display: none;
+    }
+    .left-bar img{
+        width: 100px;
+        height: 55px;
+    }
+}

@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	/*background-color:#CCC;*/
+}
+
+#outer-wrapper{
+	margin:0 auto 10px;
+	width:960px;
+	//background-color:#FFF;
+	//min-height:50px;
+	
+}
+
+#wrapper{
+	margin:0 auto 10px;
+	width:960px;
+	background-color:#FFF;
+	min-height:50px;
+}
+
+#menu{
+	
+	width:97%;
+	margin: 0 auto;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: #E65160;
+	border-radius:5px;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a:link, #menu a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #E65160;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+
+#menu a:hover, a:active {
+    background-color: #7A991A;
+}
+
+
+
+#header{
+	width:100%;
+	height:150px;
+}
+
+#logo{
+	margin-left:10px;
+	margin-top:10px;
+	width:150px;
+	height:150px;
+	float:left;	
+}
+
+#LogoText{
+	width:800px;
+	float:left;
+	text-align:center;
+	text-transform:uppercase;
+	color:#28166F;
+}
+
+#LogoText p {
+	font-size: 33px;
+    margin: 0;
+    padding: 13px;
+	
+}
+
+#LogoText2{
+	width:800px;
+	float:left;
+	text-align:center;
+	color:#2816F;
+	/*margin-top:-27px;*/
+	font-size:28px;
+	color:#28166F;
+}
+
+
+#contetnt_wrapper{
+	width: 960px;
+	min-height: 500px;
+	font-size: 14px;
+	text-align: left;
+	color: #000;
+	
+	
+	
+	}
+
+
+/* Form Print */
+#fullheader {
+	width:100%; 
+	height:auto;
+	overflow: hidden;;
+}
+#fullheader p {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.basicinfo{
+	width:960px;
+	height:40px;
+	margin-top:54px;
+}
+.basicinfo .basic_p{
+	margin:0 auto;
+	width:830px;
+	height:40px;
+	font-size:25px;
+	text-transform:capitalize;
+	text-align:center;
+	background-color:#CCC;
+	line-height:40px;
+	margin-top:35px;
+	border:1px solid;
+}
+
+.toprow {
+width:100%;
+overflow:hidden;	
+}
+.infromation{
+	/* margin-left: 78px; */
+	margin-top: 0px;
+
+	width: 80%;
+	text-align: left;
+
+	float:left;
+}
+
+.sidebar{
+width:20%;	
+
+float:left;
+}
+
+.p-pic{
+	border: medium solid;
+    float: right;
+    height: 225px;
+    margin-right: 9px;
+    margin-top: 0px;
+    width: 176px;
+}
+
+.r-pic{
+	border: medium solid;
+    float: right;
+    height: 225px;
+    margin-right: 72px;
+    margin-top: 70px;
+    width: 175px;
+}
+
+
+.rowheading { position: relative; text-align: center; color: black; }
+.rowheading img { width:100%; height:30px; }
+.rowheading .text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	width:100%;
+}
+				
+.table1{
+	width:960px;
+	height:256px;
+	margin-top:20px;
+	
+	}
+.table1_left{
+	margin-left:70px;
+	width:530px;
+	height:225px;
+	float:left;
+}
+.table2_right{
+	width:360px;
+	height:225px;
+	float:left;
+}
+.certificate{
+	margin: 0 auto;
+    width: 878px;
+}
+
+#picshow{
+	float: right;
+    height: 150px;
+    margin-right: 116px;
+    margin-top: -518px;
+
+}
+
+.challan{
+	width: 300px;
+	
+	float: left;
+	margin-left: 12px;
+	margin-top: 25px;
+}
+
+
+.challan td{
+	border: 1px solid #e5eaef;
+	
+	height: 25px;
+	padding-left: 5px;
+	text-align: center;
+}
+
+
+select{
+width:50%;	
+}
+
+/*input[type="search"], input[type="tel"]*/
+input, textarea, select {
+       background-color: #ffffff;
+	   border-radius:3px;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    padding: 5px 11px 5px 11px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	
+}
+input:focus, textarea:focus, select:focus{
+border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0 none;	
+}
+
+select, input, textarea{
+	font-family:"Gill Sans";
+}
+
+
+.successMSG {
+    background: none repeat scroll 0 0 #f4fcee;
+    border: 2px solid #91e458;
+	margin: 20px auto;
+    padding: 20px 30px 10px;
+    width: 600px;
+}
+
+.errorMSG {
+    background: none repeat scroll 0 0 #FC6;
+    border: 2px solid red;
+	margin: 20px auto;
+    padding: 20px 30px 10px;
+    width: 600px;
+}
+.errorMSG h2{
+	color:red;
+}
+
+.mytable {
+    border-collapse: collapse;
+}
+
+.mytable, .mytable th, .mytable td {
+    border: 1px solid black;
+}
+.mytable th {
+  /*  background-color: #4CAF50;
+    color: white;*/
+}

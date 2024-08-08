@@ -1,0 +1,407 @@
+.navbar{
+    display: flex;
+    box-shadow: -42px 13px 36px -17px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1000;
+    top: 0%;
+}
+
+
+.logo_img{
+    position: absolute;
+    margin-left: 169px;
+    margin-top: 11px;
+    
+    height: 90px;
+    width: 40px;
+}
+
+.logo_img img{
+    height: 60px;
+}
+
+.nav_items{
+    display: flex;
+   
+    width: 200px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+
+.nav_items a{
+    
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight:600;
+    text-decoration: none;
+    padding-left: 40px;
+}
+
+.nav_search_cart{
+    position: absolute;
+    margin-left: 1544px;
+    margin-top: 21px;
+}
+
+.fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    
+}
+
+.fa-bag-shopping{
+    color: rgb(13, 13, 14);
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.intro_div{
+        
+    background-image: url(pics/Screenshot\ 2024-07-22\ 212806.png);
+    padding: 100px;
+    margin-top: 20px;
+    padding-left: 1784px;
+    padding-top: 530px;
+    position: absolute;
+    top: 100px;
+     background-color: yellow;
+}
+
+.intro_div button{
+    background-color: rgb(253, 255, 255);
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(0, 174, 255);
+    position: absolute;
+    margin-left: -876px;
+    margin-top: 32px;
+    border-radius: 44px;
+    padding: 10px;
+}
+
+.intro_div button:hover{
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+}
+
+.macbook_lap{
+    position: absolute;
+    margin-top: 758px;
+    padding: 100px;
+    padding-right: 1777px;
+    padding-top: 558px;
+    background-image: url(pics/laptops.png);
+    background-color: blanchedalmond;
+}
+
+.macbook_lap button{
+    margin-right: 100px;
+    background-color: rgb(253, 255, 255);
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(218, 228, 233);
+    background-color: rgb(0, 174, 255)    ;
+    position: absolute;
+    margin-left: 730px;
+    margin-top: -387px;
+    border-radius: 44px;
+    padding: 7px;
+}
+
+.macbook_lap a{
+    text-decoration: none;
+    background-color: rgb(241, 227, 227);
+    font-size: 30px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(0, 174, 255);
+    
+    position: absolute;
+    margin-left: 886px; 
+    margin-top: -393px;
+    border-radius: 33px;
+    padding: 12px;
+}
+
+.macbook_lap a:hover{
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+}
+
+.macbook_lap button:hover{
+    background-color: rgb(218, 231, 243);
+     color: rgb(0, 174, 255);;
+}
+
+.iphone_iphone{
+    position: absolute;
+    margin-top: 1428px;
+    padding: 100px;
+    padding-right: 1776px;
+    padding-top: 531px;
+    background-color: blanchedalmond;
+    background-image: url(pics/iphone_x_iphone.png);
+}
+
+.iphone_iphone button{
+    margin-right: 100px;
+    font-size: 24px;
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+    position: absolute;
+    margin-left: 692px;
+    margin-top: -330px;
+    border-radius: 44px;
+    padding: 7px;
+}
+
+.iphone_iphone button:hover{
+    background-color: azure;
+    color: rgb(0, 174, 255);
+    
+}
+
+.iphone_iphone a{
+    text-decoration: none;
+    background-color: rgb(245 238 238);
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(0, 174, 255);
+    position: absolute;
+    margin-left: 844px;
+    margin-top: -331px;
+    border-radius: 33px;
+    padding: 11px;
+}
+
+.iphone_iphone a:hover{
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+}
+
+
+
+
+.out_of_office{
+    background-image: url(pics/out_of_office.png);
+    position: absolute;
+    margin-top: 2073px;
+    padding: 100px;
+    padding-right: 835px;
+    padding-top: 457px;
+    background-color: blanchedalmond;
+}
+
+.out_of_office button{
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: -318px;
+    border-radius: 44px;
+    padding: 8px;
+}
+
+.out_of_office button:hover{
+    color:  rgb(45, 132, 186);
+    background-color: aliceblue;
+}
+
+.out_of_office a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    background-color: #d95050;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 362px;
+    margin-top: -316px;
+    border-radius: 44px;
+    padding: 8px;
+}
+
+.out_of_office a:hover{
+    background-color: aliceblue;
+    color: #d95050 ;
+}
+
+
+.apple_intelligence{
+    background-image: url(pics/apple_intelligence.png);
+    position: absolute;
+    margin-left: 942px;
+    margin-top: 2073px;
+    padding: 100px;
+    padding-right: 827px ;
+    padding-top: 455px;
+}
+
+.apple_intelligence button{
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(45, 132, 186);
+    color: aliceblue;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: -290px;
+    border-radius: 44px;
+    padding: 8px;
+}
+
+.apple_intelligence button:hover{
+    background-color: aliceblue;
+    color: rgb(45, 132, 186);
+}
+
+.apple_intelligence a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Work Sans", sans-serif;
+    background-color: rgb(247, 248, 249);
+    color: rgb(45, 132, 186);
+    position: absolute;
+    margin-left: 355px;
+    margin-top: -291px;
+    border-radius: 44px;
+    padding: 10px;
+}
+
+.apple_intelligence a:hover{
+    background-color: rgb(45, 132, 186);
+    color: rgb(247, 248, 249);
+}
+
+
+/*sliders*/
+
+.sliders {
+    margin-top: 2645px;
+    height: 600px;
+    width: 100%;
+    }
+  
+  .carousel-item img {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  .carousel-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  /*footer*/
+
+  .footer-items {
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+  }
+
+  
+  
+  .footer-firsr-column,
+  .footer-second-column,
+  .footer-third-column,
+  .footer-fourth-column,
+  .footer-fifth-column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .footer-firsr-column a,
+  .footer-second-column a,
+  .footer-third-column a,
+  .footer-fourth-column a,
+  .footer-fifth-column a {
+    margin: 2px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /*media query*/
+
+  @media (max-width: 768px) {
+    .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav_items {
+      
+      visibility: hidden;
+    }
+  
+    .nav_search_cart {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+     
+    .sliders{
+        visibility: hidden;
+    }
+    
+    .footer-items div {
+        margin-top: -500px;
+        margin-left: 300px;
+      width: 5%;
+    }
+    
+  }
+  
+  @media (max-width: 600px) {
+           
+    .intro_div,
+    .macbook_lap,
+    .iphone_iphone,
+    .out_of_office,
+    .apple_intelligence div{
+      width: 100px;
+    }
+
+    
+
+    .sliders{
+        visibility: hidden;
+    }
+  
+    .carousel-caption {
+      display: none;
+    }
+  
+    .footer-items {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .footer-items div {
+        margin-top: -500px;
+        margin-left: 300px;
+      width: 5%;
+    }
+  }
+
+
+ 
